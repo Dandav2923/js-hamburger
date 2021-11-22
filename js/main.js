@@ -1,8 +1,8 @@
-const element = document.querySelector('.header-right > a');
+const element = document.querySelector('header >.hamburger-menu');
 
 element.addEventListener('click',
 function() {
 
-    element.classList.add(' active');
-    
+    element.classList.add('active');
+
 });
